@@ -1,0 +1,41 @@
+artifact_path: /tmp/claude-0/-home-claude/5e0fa106-fe91-5be5-95e7-559831f9791a/scratchpad/repo/mlflow-drift-DS03/mlruns/1/models/m-37f29b663c65480e9bdbcd366fe33b70/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.17
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+is_signature_from_type_hint: false
+mlflow_version: 3.17.2
+model_id: m-37f29b663c65480e9bdbcd366fe33b70
+model_size_bytes: 3784789
+model_uuid: m-37f29b663c65480e9bdbcd366fe33b70
+prompts: null
+run_id: 55ecc2a2517b4d19b081d2b971362afc
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "age", "required": true}, {"type": "double",
+    "name": "sex", "required": true}, {"type": "double", "name": "bmi", "required":
+    true}, {"type": "double", "name": "bp", "required": true}, {"type": "double",
+    "name": "tc", "required": true}, {"type": "double", "name": "ldl", "required":
+    true}, {"type": "double", "name": "hdl", "required": true}, {"type": "double",
+    "name": "tch", "required": true}, {"type": "double", "name": "ltg", "required":
+    true}, {"type": "double", "name": "glu", "required": true}]'
+  outputs: '[{"type": "double", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-10-27 11:05:24.396608'

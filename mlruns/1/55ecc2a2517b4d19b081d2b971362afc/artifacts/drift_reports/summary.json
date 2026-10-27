@@ -1,0 +1,27 @@
+{
+  "control_n_drifted": 1,
+  "run_id": "55ecc2a2517b4d19b081d2b971362afc",
+  "experiment_id": "1",
+  "metrics": {
+    "ref_cv5_r2_mean": 0.25742792167029915,
+    "ref_cv5_r2_std": 0.17338548755623562,
+    "current_r2": 0.4577197371680696,
+    "current_rmse": 57.246386306043185,
+    "current_mae": 46.46210608995183,
+    "ref_oof_rmse": 60.20249196114105,
+    "ref_oof_mae": 47.89854424323721
+  },
+  "n_drifted_features": 9,
+  "share_drifted": 1.0,
+  "drifted": [
+    "sex",
+    "bmi",
+    "bp",
+    "tc",
+    "ldl",
+    "hdl",
+    "tch",
+    "ltg",
+    "glu"
+  ]
+}
